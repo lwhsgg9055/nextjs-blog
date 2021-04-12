@@ -10,39 +10,39 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          nihao <a href="https://nextjs.org">Next.js!</a>
+          안녕하세요  <a href="http://localhost:3000/posts/first-post">류문호입니다</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        어서 오세요 <code>Welcome!</code>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="http://localhost:3000/posts/first-post" className="card">
+            <h3>My name &rarr;</h3>
+            <p>류문호입니다 Welcome to my pages!</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.hanyang.ac.kr/web/www" className="card">
+            <h3>My University! &rarr;</h3>
+            <p>Welcome to Hanyang University!!</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://game.naver.com/lounge/League_of_Legends/home"
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Game of LOL &rarr;</h3>
+            <p>Would you want to have a game?</p>
+          </a>
+
+          <a
+            href="https://news.naver.com/"
+            className="card"
+          >
+            <h3>News &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Everyday has new things!
             </p>
           </a>
         </div>
